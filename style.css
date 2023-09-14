@@ -131,6 +131,7 @@ legend {
 .destino__opcao select {
     width: 450px;
     flex-grow: 2;
+    color: grey;
 }
 
 .opcoes {
@@ -319,6 +320,19 @@ ul li {
     font-size: 14px;
 }
 
+
+/*Hover*/
+.contatos input:hover,
+.destino input:hover,
+.destino__opcao select:hover {
+    background-color: var(--cor-fundo);
+}
+
+button:hover {
+    background-color: var(--cor-fundo);
+    color: var(--destaque);
+    border: 1px solid var(--destaque);
+}
 
 
 
