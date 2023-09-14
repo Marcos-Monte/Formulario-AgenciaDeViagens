@@ -25,7 +25,7 @@
                 action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
 
                 <div class="formulario__titulo">
-                    <img src="../img/aviao.png" alt="">
+                    <img src="./img/aviao.png" alt="">
                     <h3>Solicite um orçamento.</h3>
                 </div>
 
@@ -33,31 +33,31 @@
                     <legend>Informe seus dados</legend>
 
                     <label>Nome</label>
-                    <input type="text" name="nome" placeholder="Nome completo.">
+                    <input type="text" name="nome" placeholder="Nome completo." required>
 
                     <label>Email</label>
-                    <input type="email" name="email" placeholder="Email para contato.">
+                    <input type="email" name="email" placeholder="Email para contato." required>
 
                     <label>Celular</label>
-                    <input type="tel" name="celular" placeholder="(xx) xxxxxxxxx">
+                    <input type="tel" name="celular" placeholder="(xx) xxxxxxxxx" required>
                 </fieldset>
 
                 <fieldset class="destino">
 
                     <div class="destino__opcao">
                         <label>Data da Ida</label>
-                        <input type="date" name="partida">
+                        <input type="date" name="partida" required>
                     </div>
 
                     <div class="destino__opcao">
                         <label>Data da Volta</label>
-                        <input type="date" name="chegada">
+                        <input type="date" name="chegada" required>
                     </div>
 
                     <div class="destino__opcao">
 
                         <label>Origem</label>
-                        <select name="origem">
+                        <select name="origem" required>
                             <option value="">Partindo de</option>
                             <option value="Santos">Santos</option>
                             <option value="Itanhaem">Itanhaém</option>
@@ -67,7 +67,7 @@
 
                     <div class="destino__opcao">
                         <label>Destino</label>
-                        <select name="destino">
+                        <select name="destino" required>
                             <option value="">Indo para</option>
                             <option value="Mongolia">Mongolia</option>
                             <option value="Feira">Feira</option>
