@@ -1,0 +1,18 @@
+Objetivo
+A proposta desse projeto é criar o front-end de uma página web dinâmica utilizando formulários para enviar dados do front-end para o back-end.
+
+Para isso foram usadas as linguagens HTML e CSS, em:
+
+* Um arquivo HTML que conterá a estrutura da página da agência de viagens e; 
+* Um arquivo CSS contendo os estilos que mudam a aparência da página.
+
+Seções do projeto
+
+1. Topo
+2. Conteudo Principal:
+    - Formulário
+        - Backend foi desenvolvido por outros devs.
+        - Aqui criaremos apenas o Frontend da aplicação.
+    - Ofertas
+    - Anuncios
+3. Rodapé
