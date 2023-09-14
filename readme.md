@@ -39,8 +39,8 @@
     <li>Flexbox</li>
     <li>Resposividade</li>
     <li>Efeitos visuais</li>
-    <li>Tabelas Estilizadas</li>
-    <li>Navegção entre páginas</li>
+    <li>Formulários (Front-End)</li>
+    <li>Validação de regras de negócios</li>
     <li>Editor de código: VSCode</li>
 </ul>
 
